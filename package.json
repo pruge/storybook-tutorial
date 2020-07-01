@@ -1,0 +1,39 @@
+{
+  "name": "storybook-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pruge/storybook-tutorial.git",
+  "author": "Prugehada <strive1024@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/pruge/storybook-tutorial",
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-spring": "^8.0.27"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-docs": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-transform-jsx-classname-components": "^0.0.3",
+    "babel-plugin-transform-react-pug": "^7.0.1",
+    "babel-preset-react-app": "^9.1.2",
+    "eslint": "^7.3.1",
+    "eslint-plugin-react-pug": "^0.8.4",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "typescript": "^3.9.5",
+    "webpack-preprocessor-pug-tsx": "^1.0.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006 --ci",
+    "build-storybook": "build-storybook"
+  }
+}
