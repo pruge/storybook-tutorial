@@ -32,13 +32,13 @@ module.exports = {
 
     // typescript pug
     config.module.rules.push({
-      test: /\.(tsx)$/,
+      test: /\.(ts|tsx)$/,
       use: [
         'babel-loader',
         {
           loader: 'webpack-preprocessor-pug-tsx',
           options: {
-            includes: ['React'],
+            includes: [],
           },
         },
       ],
