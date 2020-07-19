@@ -30,7 +30,8 @@
     "eslint-plugin-react-pug": "^0.8.4",
     "react-docgen-typescript-loader": "^3.7.2",
     "typescript": "^3.9.7",
-    "webpack-preprocessor-pug-tsx": "^0.6.3"
+    "webpack-preprocessor-pug-tsx": "^0.6.3",
+    "lodash": ">=4.17.19"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006 --ci",
